@@ -8,7 +8,7 @@ document.getElementById("bugForm").addEventListener("submit", function(event) {
         const bugList = document.getElementById("bugList");
 
         const listItem = document.createElement("li");
-        listItem.innerHTML = `<strong>${title}</strong><p>${description}</p>`;
+        listItem.innerHTML = `<strong>${title}</strong><p>${description}</p><small>Submitted on: ${new Date().toLocaleString()}</small>`; // 🆕
         bugList.appendChild(listItem);
 
         // Reset form
