@@ -58,4 +58,5 @@ form button:hover {
     margin-bottom: 10px;
     border-left: 5px solid #dc3545;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fffff0;
 }
