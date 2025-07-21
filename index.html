@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Bugtracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bugtracker</h1>
+
+    <form id="bugForm">
+        <label for="bugTitle">Bug Title:</label>
+        <input type="text" id="bugTitle" name="bugTitle" required>
+
+        <label for="bugDescription">Description:</label>
+        <textarea id="bugDescription" name="bugDescription" required></textarea>
+
+        <button type="submit">Submit Bug</button>
+    </form>
+
+    <h2>Submitted Bugs</h2>
+    <ul id="bugList"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
