@@ -1,24 +1,14 @@
-# 🐞 Bugtracker
+#  Bug Tracker App
 
-A simple web-based bug tracking application built with HTML, CSS, and JavaScript.
+A basic web application for submitting and listing bug reports.
 
-## 🚀 Features
+##  Technologies Used
 
-- Submit bug reports with a title and description
-- Display a list of submitted bugs
-- Clean and responsive design
-- Client-side form validation
+- HTML
+- CSS
+- JavaScript
 
-## 📷 Preview
+##  Author
 
-![screenshot](screenshot.png)  
-*(Add a screenshot of your app and rename it to `screenshot.png` in the project folder)*
-
-## 🛠 Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-
-## 📁 Project Structure
-
+- Name: Lokeshwaran M
+- Date: July 21, 2025
